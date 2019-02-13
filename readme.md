@@ -13,7 +13,7 @@ Integrating Google Login with CodeIgniter by Ngekoding.
 1. Clone/download this repo and place to your local server
    - XAMPP: path/to/xampp/htdocs
 2. Open `application/config/config.php` and change `base_url` to your own setting (Note: for local use, please use a virtualhost)
-3. Rename `google-example.php` to `google.php` in `application/config` and change the value (g_client_id, etc.)
+3. Rename `google.example.php` to `google.php` in `application/config` and change the value (g_client_id, etc.)
 3. Installing google client library
    - Open CMD/Terminal
    - Go to project directory `google-login/application`
