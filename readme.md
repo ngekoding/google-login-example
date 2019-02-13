@@ -4,6 +4,10 @@ Integrating Google Login with CodeIgniter by Ngekoding.
 ## Important
 1. Make sure composer was installed 
 2. Make sure you have Google client id and client secret (also setting for callback url, etc.)
+   - For local use
+   	 - Setting in **OAuth consent screen** --> Authorized domains: use virtualhost (e.g. ngekoding.me)
+   	 - Setting in **Credentials** --> Authorized redirect URIs: http://ngekoding.me/index.php/auth/google_callback
+
 
 ## How to install
 1. Clone/download this repo and place to your local server
