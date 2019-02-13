@@ -1,0 +1,9 @@
+application/config/google.php
+application/vendor
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
